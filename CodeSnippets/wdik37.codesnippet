@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>wdik37</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>/// Zmiana kierunku.
+    ///
+    /// Zmienna określająca zmianę kierunku. Jeśli użytkownik przyciśnie jedną ze strzałek na ekranie zmienna ta zmieni wartość na `.left` (lewo) lub `.right` (prawo), a po kolejnym odświeżeniu ekranu gry zostanie przywrócona wartość `.none`
+    var directionChange: DirectionChange = .none
+
+    /// Obecny kierunek ruchu węża.
+    var currentDirection = Direction.down
+
+    /// Położenie głowy węża na siatce.
+    var currentHeadPosition = GridPoint(column: 0, row: 0)
+
+    // MARK: Krok 38: Deklaracja metody odświeżającej stan gry</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>DF907418-748E-4DE7-BCAA-2BF598E2BA3A</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Krok 37: Deklaracja zmiennych przechowujących stan gry</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

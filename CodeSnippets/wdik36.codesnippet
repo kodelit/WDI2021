@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>wdik36</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>/// Mapa zmiany kierunku.
+    ///
+    /// Nasza mapa zmiany kierunku posiada wartości dla zmiany w lewo `.left` i w prawo `.right`, ale nie dla `.none` bo to oznacza brak zmiany. Do każdej zmiany (klucza) przypisany jest kolejny słownik zawierający obecny kierunek `currentDirectory` jako klucz, a wartością jest następny kierunek, w którym powinien poruszać się wąż po zmianie kierunku.
+    let directionChangeMap: [DirectionChange: [Direction: Direction]] =
+        [.left: [ .right: .up,
+                  .up: .left,
+                  .down: .right,
+                  .left: .down ],
+         .right: [.right: .down,
+                  .up: .right,
+                  .down: .left,
+                  .left: .up]]
+
+    // MARK: Krok 37: Deklaracja zmiennych przechowujących stan gry</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>B792159A-7692-4662-BF96-7CFBF721AB61</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Krok 36: Deklaracja mapy zmiany kierunku</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

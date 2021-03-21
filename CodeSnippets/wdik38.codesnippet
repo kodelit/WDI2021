@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>wdik38</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>/// Przemieszcza węża w następne położenie.
+    ///
+    /// - Jeśli użytkownik wcisnął przycisk zmiany kierunku, metoda zmienia obecny kierunek poruszania się węża.
+    /// - Następnie sprawdza, gdzie powinna znaleźć się jego głowa po przemieszczeniu.
+    ///     - Jeśli po przemieszczeniu wąż nie ugryzie sam siebie bądź nie wyjdzie za planszę, wąż zostanie przemieszczony.
+    ///     - W przeciwnym wypadku gra zostanie przerwana.
+    /// - Jeśli głowa przemieści się na pole z jedzeniem
+    ///     - stanie się ono częścią węża, ale na ekranie będzie to widoczne dopiero gdy przejdzie przez niego aż do ogona,
+    ///     - na ekranie zostanie dodana kolejna losowa komórka reprezentująca jedzenie
+    func moveSnake() -&gt; Bool {
+        // Sprawdzenie czy dla obecnej zmiany kierunku jest zdefiniowany nowy kierunek poruszania się węża
+        if let newDirection = directionChangeMap[directionChange]?[currentDirection] {
+            currentDirection = newDirection
+
+            // użyliśmy już informacji o zmianie kierunku do określenia nowego kierunku, więc przywracamy ją do wartości neutralnej
+            directionChange = .none
+        }
+
+        // MARK: Krok 39: Pobranie wartości przemieszczenia
+
+        
+        return false
+    }
+
+    // MARK: Krok 42: Deklaracja metody sprawdzającej czy wąż nie ugryzł sam siebie</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>7FB3C39F-3D00-4F7C-A238-EEBF1E9FDEE5</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Krok 38: Deklaracja metody odświeżającej stan gry</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

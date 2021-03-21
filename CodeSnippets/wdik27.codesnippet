@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>wdik27</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>/// Generuje komórkę w losowym PUSTYM miejscu na planszy.
+    ///
+    /// Komórka ta stanowi "pożywienie", do którego będzie zmierzał wąż.
+    func generateRandomCell() -&gt; UIView {
+        // MARK: Krok 29: Szukanie wolnego miejsca na siatce
+
+    }
+
+    // MARK: Krok 28: Definicja metody sprawdzającej dostępność pola na siatce</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>A589225F-E2B3-410D-9054-9CA5E56895DF</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Krok 27: Definicja metody generującej komórkę w losowym miejscu</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>wdik23</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>/// Współrzędne przycisku `restart` w układzie współrzędnych widoku głównego/ekranu
+        let restartButtonPosition = CGPoint(x: (viewWidth - buttonWidth)/2, // środek ekranu
+                                          y: buttonYPosition)
+        /// Przycisk restart
+        let restartButton = UIButton(type: .system)
+        // ustawienie pozycji i wymiarów przycisku na ekranie
+        restartButton.frame = CGRect(origin: restartButtonPosition, size: buttonSize)
+        // ustawienie obrazka/ikony dla przycisku
+        restartButton.setImage(UIImage(systemName: "restart"), for: .normal)
+        // dodanie przycisku do widoku głównego
+        view.addSubview(restartButton)
+
+        // przypiszmy akcję do przycisku, która ma się wykonać w momencie jego tapnięcia, czyli dotknięcie ekranu i podniesienie palca w obrębie przycisku
+        restartButton.addTarget(self, action: #selector(onRestartButton), for: .touchUpInside)
+
+        // MARK: Krok 24: Dodawanie przycisków nawigujących w lewo i prawo</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>4E56FFED-EDD0-4D24-A365-F0A29707EDA1</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Krok 23: Tworzenie przycisku restartującego grę</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>wdik59</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>weak var timer: Timer?
+
+    @objc func onRefresh(_ timer: Timer) {
+        // MARK: Krok 61: Implementacja automatycznego odświeżania gry
+
+        let isSuccess = moveSnake()
+        if !isSuccess {
+            // Jeśli ruch się nie powiódł oznacza to koniec gry
+            // wąż albo wyszedł za planszę, albo ugryzł sam siebie, kończymy grę poprzez zatrzymanie zegara
+            timer.invalidate()
+        }
+    }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>EAD7F1DF-17EE-4FBD-9FC3-4EC660494A39</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Krok 59: Obsługa automatycznego odświeżania gry</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

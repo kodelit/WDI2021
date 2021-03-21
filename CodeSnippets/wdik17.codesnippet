@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>wdik17</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>/// Metoda tworząca nową komórkę siatki w podanym punkcie siatki bądź w punkcie zerowym (pierwsze pole siatki w lewym górnym rogu planszy).
+    ///
+    /// - parameter point: Punkt, w którym powinna się pojawić komórka/kropka, określony jako współrzędne w widoku, do którego zostanie dodana. Można pominąć parametr `point` co spowoduje utworzenie kropki punkcie (0,0) (lewy górny róg widoku)
+    /// - returns: Widok reprezentujący komórkę siatki (część węża bądź kropkę stanowiącą jego "pożywienie").
+    func createCell(at point: CGPoint = .zero) -&gt; UIView {
+
+        // MARK: Krok 18: Kod tworzący komórkę/kropkę w danym punkcie
+
+
+    }
+
+    // MARK: Krok 19: Definicja metody ładującej przyciski sterujące
+    // TODO: Zanim wykonasz "Krok 19" dodaj na końcu pliku "Krok demo A1"</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>0253EA15-8121-41B7-A63E-AB4190996EA1</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Krok 17: Definicja metody tworzącej komórkę/kropkę w danym punkcie siatki</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>wdik47</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>/// Umieszcza na planszy 3 pierwsze komórki węża i jedzenie.
+    func loadGameElements() {
+        // MARK: Krok 48: Implementacja metody ładującej elementy gry
+
+    }
+
+    // MARK: Krok 50: Deklaracja metody reagującej na tapnięcie na planszy</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>D0191C5B-37E8-4549-A095-E55F2C634308</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Krok 47: Deklaracja metody ładującej elementy gry</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

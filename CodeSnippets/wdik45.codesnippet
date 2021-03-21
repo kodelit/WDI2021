@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>wdik45</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>// Dodajemy komórkę jedzenia na początek węża, ale nie zmieniamy jej położenia na planszy, będzie ona się przesuwała pod wężem aż na jego koniec
+                        snake.insert(food, at: 0)
+                        // jako że wąż zjadł obecne jedzenie należy wygenerować nowe, żeby wąż miał gdzie zmierzać
+                        let newFood = generateRandomCell()
+                        // następnie umieśćmy nową komórkę z jedzeniem na planszy
+                        boardView?.insertSubview(newFood, at: 0)
+                        // musimy też przypisać ją do zmiennej, bo będziemy jej potrzebować w następnym ruchu
+                        self.food = newFood</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>6A3DF3CC-2077-4DD9-9D68-8F94B0684702</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Krok 45: Implementacja konsumpcji</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

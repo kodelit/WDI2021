@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>wdik31</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>/// Metoda sprawdzająca czy dana komórka (widok) znajduje się w danym punkcie na siatce.
+    func isCell(_ cell: UIView, at position: GridPoint) -&gt; Bool {
+        // MARK: Krok 33: Implementacja metody sprawdzającej czy dana komórka (widok) znajduje się w danym polu na siatce
+
+        return false
+    }
+
+    // MARK: Krok 34: Definicja typu wartości określającej kierunek poruszania</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>8B6C59B7-D2B3-4C6C-B779-517E4A5A8565</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Krok 31: Definicja metody sprawdzającej czy dana komórka (widok) znajduje się w danym polu na siatce</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

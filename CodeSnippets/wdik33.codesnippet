@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>wdik33</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>/// Pozycja komórki w widoku planszy.
+        let viewPosition: CGPoint = cell.frame.origin
+        /// Pozycja komórki na siatce
+        var gridPosition = GridPoint()
+
+        // obliczamy index kolumny
+        gridPosition.column = Int( viewPosition.x/CGFloat(columnWidth) )
+        // obliczamy index wiersza
+        gridPosition.row = Int( viewPosition.y/CGFloat(rowHeight) )
+
+        // komórka znajduje się na podanej pozycji, jeśli obje pozycje:
+        // - pozycja komórki na siatce `gridPosition` oraz
+        // - pozycja `position`
+        // mają takie same wartości
+        return position.column == gridPosition.column &amp;&amp; position.row == gridPosition.row</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>6D518562-4903-47F5-92A7-CF12AB8A4206</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Krok 33: Implementacja metody sprawdzającej czy dana komórka (widok) znajduje się w danym polu na siatce</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

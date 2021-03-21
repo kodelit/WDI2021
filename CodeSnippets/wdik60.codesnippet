@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>wdik60</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>// Przed uruchomieniem nowego timera należy zatrzymać poprzedni
+        // TODO: Sprawdź co się stanie, jeśli tego nie zrobisz.
+        timer?.invalidate()
+
+        /// Odstęp w sekundach pomiędzy kolejnymi odświeżeniami
+        ///
+        /// W takich odstępach czasu gra będzie się odświeżała automatycznie
+        let updateInterval: TimeInterval = 0.3
+        // Tworzenie i uruchamianie timera, który będzie uruchamiał ponownie daną metodę (`selektor`), póki nie zostanie zatrzymany
+        timer = Timer.scheduledTimer(timeInterval: updateInterval, target: self, selector: #selector(onRefresh(_:)), userInfo: nil, repeats: true)</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>C2E4839C-55A4-41FC-AAA5-5EF7E62F9E6C</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Krok 60: Uruchamianie automatycznego odświeżania gry</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>wdik24</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>[DirectionChange.left, DirectionChange.right].forEach { (direction) in
+            let button = UIButton(type: .system)
+            let buttonXPosition: CGFloat
+
+            if direction == .left {
+                buttonXPosition = sideMargin
+                button.setImage(UIImage(systemName: "arrowshape.turn.up.left"), for: .normal)
+                button.addTarget(self, action: #selector(onLeftButton), for: .touchUpInside)
+            } else {
+                buttonXPosition = viewWidth - sideMargin - buttonWidth
+                button.setImage(UIImage(systemName: "arrowshape.turn.up.right"), for: .normal)
+                button.addTarget(self, action: #selector(onRightButton), for: .touchUpInside)
+            }
+            let buttonPosition = CGPoint(x: buttonXPosition, y: buttonYPosition)
+            button.frame = CGRect(origin: buttonPosition, size: buttonSize)
+            view.addSubview(button)
+        }
+
+        // MARK: Krok 51: Dodanie obsługi tapnięcia na planszy</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>D4DED5D1-60B6-4E69-AB34-3B63BA5BD244</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Krok 24: Dodawanie przycisków nawigujących w lewo i prawo</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

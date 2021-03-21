@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>wdik10</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>/// Liczba wierszy.
+    ///
+    /// Jest to obliczona ilość całkowitych wierszy mieszczących się w dostępnej na planszę przestrzeni ekranu
+    var numberOfRows: Int {
+        /// Maksymalna wysokość planszy, czyli po odjęciu od wysokości ekranu: marginesu górnego, wysokości przycisków i marginesu dolnego.
+        let maxBoardHeight = viewHeight - topMargin - buttonHeight - bottomMargin
+        /// Ilość wierszy jest określona jako maksymalna dostępna wysokość podzielona przez określoną wcześniej wysokość wiersza
+        let maxNumberOfRows = maxBoardHeight / CGFloat(rowHeight)
+        // faktyczna liczba wierszy powinna być całkowita dlatego utniemy część ułamkową jeśli taka występuje pozostawiajac tylko wartość całkowitą
+        return Int(maxNumberOfRows)
+    }
+
+    // MARK: Krok 11: Zdefiniowanie zmiennej przechowującej odwołanie do widoku planszy</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>6025ED97-0B58-4DD5-ADEC-50C80484D13F</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Krok 10: Obliczenie liczby wierszy</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

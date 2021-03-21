@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>wdik4</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>/// Punkt na siatce planszy.
+    ///
+    /// Posiada współrzędne całkowite (w programowaniu nazywamy je z anglielskiego `Integer`, w skrócie `Int`).
+    struct GridPoint {
+        var column: Int = 0
+        var row: Int = 0
+    }
+
+    // MARK: Krok 5: Zmienne pomocnicze - wymiary widoku</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>95FF7634-3702-49F4-AF89-85530B6FE5AB</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Krok 4: Definicja typu wartości przechowującej współrzędne na siatce</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
