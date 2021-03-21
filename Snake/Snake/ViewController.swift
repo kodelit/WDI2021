@@ -181,10 +181,9 @@ class ViewController: UIViewController {
         case right  // prawo
     }
 
-    // MARK: Krok 20: Definicja metody ładującej przyciski sterujące
+    // MARK: Krok 20: Deklaracja metody ładującej przyciski sterujące
 
     func loadButtons() {
-
         // MARK: Krok 21: Ustalenie wartości pomocniczych
 
         /// Rozmiar przycisku sterującego
@@ -275,7 +274,6 @@ class ViewController: UIViewController {
     ///
     /// Komórka ta stanowi "pożywienie", do którego będzie zmierzał wąż.
     func generateRandomCell() -> UIView {
-
         // MARK: Krok 29: Szukanie wolnego miejsca na siatce
 
         /// Współrzędne całkowite na naszej siatce (planszy)
@@ -300,7 +298,6 @@ class ViewController: UIViewController {
 
     /// Metoda sprawdzająca czy dany punkt na siatce jest wolny i można w nim umieścić komórkę.
     func isGridPositionAvailable(_ position: GridPoint) -> Bool {
-
         // MARK: Krok 32: Implementacja metody sprawdzającej dostępność pola na siatce
 
         // weź wszystkie komórki węża
@@ -321,7 +318,6 @@ class ViewController: UIViewController {
 
     /// Metoda sprawdzająca czy dana komórka (widok) znajduje się w danym punkcie na siatce.
     func isCell(_ cell: UIView, at position: GridPoint) -> Bool {
-
         // MARK: Krok 33: Implementacja metody sprawdzającej czy dana komórka (widok) znajduje się w danym polu na siatce
 
         /// Pozycja komórki w widoku planszy.
@@ -440,7 +436,6 @@ class ViewController: UIViewController {
                     // MARK: Krok 44: Sprawdzenie czy wąż coś zjadł
 
                     if let food = food, isCell(food, at: currentHeadPosition) {
-
                         // MARK: Krok 45: Implementacja konsumpcji
 
                         // Dodajemy komórkę jedzenia na początek węża, ale nie zmieniamy jej położenia na planszy, będzie ona się przesuwała pod wężem aż na jego koniec
@@ -471,9 +466,12 @@ class ViewController: UIViewController {
     }
 
     // MARK: Krok 42: Deklaracja metody sprawdzającej czy wąż nie ugryzł sam siebie
-    // TODO: Sprawdź co się stanie, jeśli nie poniższa metoda zawsze będzie zwracała wartość `true`.
 
+    /// Sprawdza czy wąż ugryzie sam siebie jeśli jego głowa znajdzie się na danej pozycji.
+    ///
+    /// - parameter position: Pozycja docelowa głowy węża.
     func willSnakeBiteHimself(at position: GridPoint) -> Bool {
+        // TODO: Sprawdź co się stanie, jeśli ta metoda zawsze będzie zwracała wartość `false`.
 
         // MARK: Krok 46: Implementacja metody sprawdzającej czy wąż nie ugryzł sam siebie
 
@@ -493,7 +491,6 @@ class ViewController: UIViewController {
 
     /// Umieszcza na planszy 3 pierwsze komórki węża i jedzenie.
     func loadGameElements() {
-
         // MARK: Krok 48: Implementacja metody ładującej elementy gry
 
         // Stwórzmy 3 początkowe komórki węża i wrzućmy je na pierwsze pole w siatce (lewy górny róg, punkt (0,0))
@@ -528,7 +525,6 @@ class ViewController: UIViewController {
 
     /// Przywraca początkowe ustawienia gry.
     func reset() {
-
         // MARK: Krok 54: Implementacja metody przywracającej początkowe ustawienia gry
 
         currentDirection = .down
@@ -557,7 +553,6 @@ class ViewController: UIViewController {
     // MARK: - Uruchamianie gry
 
     func start() {
-
         // MARK: Krok 60: Uruchamianie automatycznego odświeżania gry
 
         // Przed uruchomieniem nowego timera należy zatrzymać poprzedni
@@ -577,7 +572,6 @@ class ViewController: UIViewController {
     weak var timer: Timer?
 
     @objc func onRefresh(_ timer: Timer) {
-
         // MARK: Krok 61: Implementacja automatycznego odświeżania gry
 
         let isSuccess = moveSnake()
@@ -587,7 +581,6 @@ class ViewController: UIViewController {
             timer.invalidate()
         }
     }
-
 }
 
 // MARK: - Krok demo A1: Pomocniczy kod pozwalający wyświetlić podgląd ekranu w xcode
