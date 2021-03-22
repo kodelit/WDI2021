@@ -14,11 +14,7 @@
     @objc func onRefresh(_ timer: Timer) {
         // MARK: Krok 61: Implementacja automatycznego odświeżania gry
 
-        let isSuccess = moveSnake()
-        if !isSuccess {
-            // Jeśli ruch się nie powiódł oznacza to koniec gry
-            // wąż albo wyszedł za planszę, albo ugryzł sam siebie, kończymy grę poprzez zatrzymanie zegara
-            timer.invalidate()
+        
         }
     }</string>
 	<key>IDECodeSnippetIdentifier</key>

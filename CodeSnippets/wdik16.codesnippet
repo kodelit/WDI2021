@@ -9,7 +9,9 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>loadBoard()</string>
+	<string>        loadBoard()
+
+        // MARK: Krok 25: Ładowanie planszy</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>9612A19B-E118-426A-8260-0FE0A9FFE5F1</string>
 	<key>IDECodeSnippetLanguage</key>

@@ -14,16 +14,7 @@
     func start() {
         // MARK: Krok 60: Uruchamianie automatycznego odświeżania gry
 
-        // Przed uruchomieniem nowego timera należy zatrzymać poprzedni
-        // TODO: Sprawdź co się stanie, jeśli tego nie zrobisz.
-        timer?.invalidate()
 
-        /// Odstęp w sekundach pomiędzy kolejnymi odświeżeniami
-        ///
-        /// W takich odstępach czasu gra będzie się odświeżała automatycznie
-        let updateInterval: TimeInterval = 0.3
-        // Tworzenie i uruchamianie timera, który będzie uruchamiał ponownie daną metodę (`selektor`), póki nie zostanie zatrzymany
-        timer = Timer.scheduledTimer(timeInterval: updateInterval, target: self, selector: #selector(onRefresh(_:)), userInfo: nil, repeats: true)
     }
 
     // MARK: Krok 59: Obsługa automatycznego odświeżania gry</string>
