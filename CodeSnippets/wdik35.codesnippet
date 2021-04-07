@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>wdik35</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>/// Mapa przemieszczenia dla danego kierunku.
+    ///
+    /// Jest to słownik określający w jaki sposób powinno się zmieniać położenie głowy węża na siatce (o ile kolumn i wierszy) dla danego kierunku ruchu
+    let directions: [Direction: GridPoint] = [.right:   GridPoint(column: 1, row: 0),
+                                              .left:    GridPoint(column: -1, row: 0),
+                                              .up:      GridPoint(column: 0, row: -1),
+                                              .down:    GridPoint(column: 0, row: 1)]
+
+    // MARK: Krok 36: Deklaracja mapy zmiany kierunku</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>FFC02953-76B3-4441-BC43-5B84EC76A020</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Krok 35: Deklaracja mapy przemieszczenia</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

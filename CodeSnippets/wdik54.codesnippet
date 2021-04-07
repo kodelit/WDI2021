@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>wdik54</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>currentDirection = .down
+        // Ustawiamy zmianę kierunku na 0, czyli brak zmiany
+        directionChange = .none
+        // ustaw obecną pozycję na lewy górny róg siatki
+        currentHeadPosition = GridPoint(column: 0, row: 0)
+
+        // przywróć kolor tła pola
+        boardView?.backgroundColor = .white
+
+        // usuń poprzednie elementy gry (węża, losową kropkę, pogląd siatki, jeśli był załadowany, generalnie wszystkie podwidoki planszy)
+        boardView?.subviews.forEach { subview in
+            subview.removeFromSuperview()
+        }
+
+        // Usuń tablicę przechowującą komórki węża nadpisując ją pustą
+        snake = []
+
+        // Załaduj na nowo elementy gry
+        loadGameElements()</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>5E2A8BAD-E5CA-4B24-BC43-ECBCF9865088</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Krok 54: Implementacja metody przywracającej początkowe ustawienia gry</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

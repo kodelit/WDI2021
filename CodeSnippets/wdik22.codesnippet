@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>wdik22</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>@objc func onRestartButton() {
+        // MARK: Krok 55: Przywracanie początkowych ustawień gry
+
+    }
+
+    @objc func onLeftButton() {
+        // MARK: Krok 56: Zmiana kierunku ruchu w lewo
+
+    }
+
+    @objc func onRightButton() {
+        // MARK: Krok 57: Zmiana kierunku ruchu w prawo
+
+    }
+
+    // MARK: Krok 26: Zdefiniowanie sposobu przechowywania elementów gry w pamięci</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>E8141A45-6465-44CC-9C7F-558C7CA92552</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Krok 22: Deklaracja metod obsługujących kliknięcia przycisków</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

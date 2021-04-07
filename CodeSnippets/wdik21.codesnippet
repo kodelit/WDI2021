@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>wdik21</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>        /// Rozmiar przycisku sterującego
+        let buttonSize = CGSize(width: buttonWidth, height: buttonHeight)
+
+        /// Odstęp od boku ekranu (lewego bądź prawego) w jakim powinien znaleźć się przycisk sterujący ze strzałką.
+        let sideMargin: CGFloat = 20
+
+        /// Współrzędna y określająca na jakiej wysokości będą znajdowały się przyciski sterujące
+        let buttonYPosition = viewHeight - bottomMargin - buttonHeight
+
+        // MARK: Krok 23: Tworzenie przycisku restartującego grę</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>44DF9C36-1FE3-4D01-8E35-869838994853</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Krok 21: Ustalenie wartości pomocniczych</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>wdik18</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>/// Widok komórki/kropki
+        let cell = UIView(frame: CGRect(origin: point, size: CGSize(width: columnWidth, height: rowHeight)))
+        // Ustawienie koloru tła komórki na zielony
+        cell.backgroundColor = .green;
+        // Dodanie ramki/obwódki komórki o standardowym kolorze (czarnym) i szerokości `1.0` punkt.
+        cell.layer.borderWidth = 1
+
+        return cell</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>52F7A11B-86B2-4A73-ABE0-0D2B2A59C79F</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Krok 18: Kod tworzący komórkę/kropkę w danym punkcie</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

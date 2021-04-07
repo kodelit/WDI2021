@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>wdik5</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>/// Szerokość widoku głównego.
+    var viewWidth: CGFloat { return view.bounds.size.width }
+    /// Wysokość widoku głównego
+    var viewHeight: CGFloat { view.bounds.size.height }
+
+    // MARK: Krok 6: Ustalenie liczby kolumn</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>2D59F647-B05D-42F0-9D00-55ECC92B0DCE</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Krok 5: Zmienne pomocnicze - wymiary widoku</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>wdik40</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>// Ustaw nową pozycję głowy węża
+            currentHeadPosition.column = currentHeadPosition.column + move.column;
+            currentHeadPosition.row = currentHeadPosition.row + move.row;
+
+            // MARK: Krok 41: Sprawdzenie czy ruch jest możliwy</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>2435FF82-02E7-4B76-B082-3BBD0B42E287</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Krok 40: Ustawienie nowej pozycji głowy węża</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

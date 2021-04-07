@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>wdik9</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>/// Wysokość przycisku sterowania
+    let buttonHeight: CGFloat = 100
+
+    /// Szerokość przycisku sterowania
+    ///
+    /// Szerokość przycisku sterującego jest taka sama jak jego wysokość, ponieważ chcemy by były one kwadratowe.
+    var buttonWidth: CGFloat { buttonHeight }
+
+    // MARK: Krok 10: Obliczenie liczby wierszy</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>5506ECAE-BB7E-4E93-B548-901B13DDB0B2</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Krok 9: Określenie wymiarów przycisków sterujących</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

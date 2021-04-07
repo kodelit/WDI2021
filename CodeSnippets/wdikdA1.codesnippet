@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>wdikdA1</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>// TODO: Wróć do kroku "Krok demo A2" zdefiniowanego wcześniej i poeksperymentuj z wartoscią `boardXPosition` bądź innymi.
+// TODO: Dodaj "Krok demo A3" w oznaczonym miejscu i wykonaj polecenie TODO z tego kroku
+
+// MARK: - Xcode Preview
+// Works from Xcode 11 and macOS 10.15
+
+#if canImport(SwiftUI) &amp;&amp; DEBUG
+import SwiftUI
+
+@available(iOS 13.0, tvOS 13.0, *)
+struct ViewControllerRepresentable: UIViewControllerRepresentable {
+    typealias UIViewControllerType = ViewController
+
+    func makeUIViewController(context: Context) -&gt; UIViewControllerType {
+        return ViewController(nibName: nil, bundle: nil)
+    }
+
+    func updateUIViewController(_ uiViewController: UIViewControllerType, context: Context) {}
+}
+
+@available(iOS 13.0, tvOS 13.0, *)
+struct UIKitViewControllerProvider: PreviewProvider {
+    static var previews: ViewControllerRepresentable { ViewControllerRepresentable() }
+}
+
+#endif</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>AA5C2049-C8B2-4A6C-A27D-E8E1F88BACC4</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Krok demo A1: Pomocniczy kod pozwalający wyświetlić podgląd ekranu w xcode</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

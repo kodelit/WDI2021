@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>wdik12</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>/// Metoda ładująca/tworząca widok planszy/siatki, po której będzie poruszał się wąż
+    func loadBoard() {
+
+        // MARK: Krok 13: Obliczenie wymiarów widoku planszy
+
+
+    }
+
+// MARK: Krok 17: Definicja metody tworzącej komórkę/kropkę w danym punkcie siatki</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>F8F88532-45BC-4B31-8A3D-D65149E5975D</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Krok 12: Definicja metody ładującej planszę</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
