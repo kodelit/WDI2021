@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>wdik48</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>// Stwórzmy 3 początkowe komórki węża i wrzućmy je na pierwsze pole w siatce (lewy górny róg, punkt (0,0))
+        for _ in 1...3 {
+            // stwórzmy komórkę
+            let cell = createCell(at: .zero)
+            // dodamy ją do listy komórek węża
+            snake.insert(cell, at: 0)
+            // dodajmy ją do podwidoków planszy, czyli umieśćmy na planszy
+            boardView?.addSubview(cell)
+        }
+
+        // Stwórzmy też komórkę w losowym pustym miejscu na planszy za pomocą metody, którą przygotowaliśmy wcześniej, komórka ta będzie nazywana "jedzeniem" (ang. `food`).
+        let firstFood = generateRandomCell()
+        // umieśćmy ją na planszy
+        boardView?.insertSubview(firstFood, at: 0)
+        // przypiszmy jej wartość do zmiennej lokalnej, żeby móc się do niej odnieść później
+        self.food = firstFood</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>5FCA10AF-3FD3-4083-8339-EA1F5661A767</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Krok 48: Implementacja metody ładującej elementy gry</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

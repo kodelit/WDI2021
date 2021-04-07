@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>wdik19</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>// MARK: - Sterowanie
+
+    /// Enum określający możliwe wartości zmiany kierunku.
+    enum DirectionChange {
+        case left   // lewo
+        case none   // bez zmian
+        case right  // prawo
+    }
+
+    // MARK: Krok 20: Deklaracja metody ładującej przyciski sterujące</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>CC0658A9-4BB3-4BC7-855A-2402DA8A94B6</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Krok 19: Definicja typu wartości określającej zmianę kierunku</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

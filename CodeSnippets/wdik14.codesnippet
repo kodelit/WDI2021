@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>wdik14</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>        /// Pozycja planszy na osi X
+        let boardXPosition: CGFloat = 0 // (viewWidth - boardWidth)/2
+
+        // MARK: Krok demo A2: Obserwacja zmiany położenia planszy na podglądzie
+        // TODO: Zmieniając wartość `boardXPosition` powyzej lub przełączając ją w późniejszym etapie (gdy "Krok demo A1" jest wykonany) możesz zaobserwować na podglądzie jak zmienia się pozycja planszy.
+
+        // MARK: Krok 15: Stworzenie widoku planszy i umieszczenie jej na ekranie</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>049D0719-F5E2-437D-8D04-94AD2F8981DF</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Krok 14: Określenie pozycji planszy w poziomie</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

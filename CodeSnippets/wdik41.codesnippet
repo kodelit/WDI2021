@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>wdik41</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>if currentHeadPosition.column &gt;= 0, currentHeadPosition.column &lt; numberOfColumns,
+               currentHeadPosition.row &gt;= 0, currentHeadPosition.row &lt; numberOfRows,
+               !willSnakeBiteHimself(at: currentHeadPosition) {
+                // MARK: Krok 43: Przemieszczenie głowy na nową pozycję
+
+            } else {
+                // zmieniamy tło planszy na czarne w celu zasygnalizowania końca gry
+                boardView?.backgroundColor = .black
+
+                // Zwróć `false` informując, że ruch się nie powiódł co oznacza koniec gry
+                return false
+            }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>9BBA5D54-BF66-4D3C-9C85-FF63214462A8</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Krok 41: Sprawdzenie czy ruch jest możliwy</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>wdik29</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>/// Współrzędne całkowite na naszej siatce (planszy)
+        var gridPosition = GridPoint()
+        repeat {
+            // Wygeneruj losowe wartości całkowite z przedziału od 0 do liczby wierszy pomniejszonej o 1
+            gridPosition.column = Int.random(in: 0..&lt;numberOfColumns)
+            // można to też zapisać w ten sposób
+            gridPosition.row = Int.random(in: 0...(numberOfRows-1))
+
+            // następnie sprawdź czy wygenerowane wartości nie wskazują na pole siatki, które jest aktualnie zajęte, gdy (ang. `while`) tak jest powtórz (ang. `repeat`) proces, jeśli nie, przejdź dalej.
+        } while !isGridPositionAvailable(gridPosition)
+
+        // MARK: Krok 30: Tworzenie komórki o położeniu w wygenerowanym punkcie siatki</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>A2EB5DCA-5736-490D-9B71-8D82AF4FAB7C</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Krok 29: Szukanie wolnego miejsca na siatce</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

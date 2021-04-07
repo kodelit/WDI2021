@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>wdik42</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>/// Sprawdza czy wąż ugryzie sam siebie jeśli jego głowa znajdzie się na danej pozycji.
+    ///
+    /// - parameter position: Pozycja docelowa głowy węża.
+    func willSnakeBiteHimself(at position: GridPoint) -&gt; Bool {
+        // TODO: Sprawdź co się stanie, jeśli ta metoda zawsze będzie zwracała wartość `false`.
+
+        // MARK: Krok 46: Implementacja metody sprawdzającej czy wąż nie ugryzł sam siebie
+
+        return false
+    }
+
+    // MARK: Krok 47: Deklaracja metody ładującej elementy gry</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>A6E3BBA5-45BF-4ADC-B385-2B18C0E66504</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Krok 42: Deklaracja metody sprawdzającej czy wąż nie ugryzł sam siebie</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

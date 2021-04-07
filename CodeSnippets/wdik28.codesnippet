@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>wdik28</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>/// Metoda sprawdzająca czy dany punkt na siatce jest wolny i można w nim umieścić komórkę.
+    func isGridPositionAvailable(_ position: GridPoint) -&gt; Bool {
+        // MARK: Krok 32: Implementacja metody sprawdzającej dostępność pola na siatce
+        
+        return true
+    }
+
+    // MARK: Krok 31: Definicja metody sprawdzającej czy dana komórka (widok) znajduje się w danym polu na siatce</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>4B7CCEBD-E9B0-497C-B6A5-30E86B2F6A9B</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Krok 28: Definicja metody sprawdzającej dostępność pola na siatce</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

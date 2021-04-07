@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>wdik50</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>@objc func handleTap(sender: UITapGestureRecognizer) {
+
+        // MARK: Krok 52: Implementacja metod reagującej na tapnięcie na planszy
+
+        // wykonaj pojedynczy ruch
+        _ = moveSnake()
+    }
+
+    // MARK: Krok 53: Deklaracja metody przywracającej początkowe ustawienia gry</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>FF8B658C-4B17-40BB-8384-5B9054870E94</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Krok 50: Deklaracja metody reagującej na tapnięcie na planszy</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>wdik32</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>// weź wszystkie komórki węża
+        var allCels = snake
+        // dodaj komórkę jedzenia sprawdzając czy istnieje. Komórka jedzenia (losowa komórka) może nie istnieć na początku, póki jej nie dodamy.
+        if let food = food {
+            allCels.append(food)
+        }
+
+        // sprawdź czy choćby jedna komórka znajduje się na danej pozycji `position`
+        let existingCell = allCels.first(where: { cell in
+            self.isCell(cell, at: position)
+        })
+        return existingCell == nil</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>D94803A5-621E-46BC-8C04-89E7E2523405</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Krok 32: Implementacja metody sprawdzającej dostępność pola na siatce</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

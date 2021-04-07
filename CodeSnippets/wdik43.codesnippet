@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>wdik43</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>// bierzemy więc ostatni element węża i przenosimy go w nowe miejsce na głowę
+                if let newHead = snake.popLast() {
+
+                    // Określmy rzeczywiste położenie widoku głowy w widoku planszy
+                    let headPosition = CGPoint(x: currentHeadPosition.column * columnWidth, y: currentHeadPosition.row * rowHeight)
+                    // przemieśćmy nową głowę węża w nowe położenie
+                    newHead.frame.origin = headPosition
+                    // umieśćmy głowę na początku węża
+                    snake.insert(newHead, at: 0)
+
+                    // MARK: Krok 44: Sprawdzenie czy wąż coś zjadł
+
+
+
+                    // Zwróć `true` informując, że ruch został zakończony pomyślnie
+                    return true
+                } else {
+                    // nie powinien wystąpić przypadek, że wąż nie ma ogona, bo już na początku gry ma on 3 komórki
+                    fatalError("Snake has no tail, which mean that there is no snake at all. 😮")
+                }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>7BA71730-726B-44A2-9BC8-59ADE7BE46B4</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Krok 43: Przemieszczenie głowy na nową pozycję</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
